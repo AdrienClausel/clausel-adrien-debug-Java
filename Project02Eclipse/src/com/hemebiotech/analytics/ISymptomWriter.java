@@ -7,8 +7,8 @@ import java.util.Map;
  */
 public interface ISymptomWriter {
     /**
-     * 
-     * @param symptoms Dictionnaire clé valeur pour stocker les symptômes avec leur quantité
+     * Ecrit les données des symptômes
+     * @param symptoms Dictionnaire pour stocker les symptômes avec leur quantité
      */
     public void writeSymptoms(Map<String, Integer> symptoms); 
 }
